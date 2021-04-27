@@ -19,6 +19,8 @@ if (userStartingStation === 'london' && userDestination === "berlin" ||  userSta
    userTravelDistance = 200;
 } else if (userStartingStation === 'paris' && userDestination === "london" ||  userStartingStation === "london" && userDestination === 'paris') {
   userTravelDistance = 100;
+} else if (userStartingStation === 'barcelona' && userDestination === "london" ||  userStartingStation === "london" && userDestination === 'barcelona') {
+  userTravelDistance = 25;
 }
 
 
