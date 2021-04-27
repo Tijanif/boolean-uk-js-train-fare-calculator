@@ -10,6 +10,7 @@ console.log(userTravelDistance)
 const pricePerKm = 0.21
 const travelFare = userTravelDistance * pricePerKm
 
+const juniorDiscount
 
 alert(`Price per km is £0.21 you entered ${userTravelDistance} therefore you are paying £${travelFare} for your fare.`)
 
